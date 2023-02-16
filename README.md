@@ -8,7 +8,7 @@
 ```sh
 mkdir -p ~/wechat-chatgpt/ && wget https://raw.githubusercontent.com/fuergaosi233/wechat-chatgpt/main/config.yaml.example -O ~/wechat-chatgpt/config.yaml && touch ~/wechat-chatgpt/wechat-assistant.memory-card.json
 ```
-在当前目录创建并修改config.yaml
+#### 修改config.yaml
 
 &nbsp;
 
