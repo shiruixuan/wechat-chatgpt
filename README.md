@@ -4,7 +4,7 @@
 
 &nbsp;
 
-### 1. 下载配置文件模板
+### 1. 下载配置文件模板并修改
 ```sh
 mkdir -p ~/wechat-chatgpt/ && wget https://raw.githubusercontent.com/fuergaosi233/wechat-chatgpt/main/config.yaml.example -O ~/wechat-chatgpt/config.yaml && touch ~/wechat-chatgpt/wechat-assistant.memory-card.json
 ```
