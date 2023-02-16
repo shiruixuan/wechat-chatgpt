@@ -4,7 +4,7 @@
 
 &nbsp;
 
-### 下载配置文件模板
+### 1. 下载配置文件模板
 ```sh
 mkdir -p ~/wechat-chatgpt/ && wget https://raw.githubusercontent.com/fuergaosi233/wechat-chatgpt/main/config.yaml.example -O ~/wechat-chatgpt/config.yaml && touch ~/wechat-chatgpt/wechat-assistant.memory-card.json
 ```
@@ -12,14 +12,14 @@ mkdir -p ~/wechat-chatgpt/ && wget https://raw.githubusercontent.com/fuergaosi23
 
 &nbsp;
 
-### 部署
+### 2. 部署
 ```sh
 docker run -d --name wechat-chatgpt -v ~/wechat-chatgpt/config.yaml:/app/config.yaml -v ~/wechat-chatgpt/wechat-assistant.memory-card.json:/app/wechat-assistant.memory-card.json shiruixuan/wechat-chatgpt:latest
 ```
 
 &nbsp;
 
-### 使用二维码登陆
+### 3. 使用二维码登陆
 ```sh
 docker logs -f wechat-chatgpt
 ```
